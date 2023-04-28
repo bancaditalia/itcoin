@@ -43,14 +43,14 @@
   </header>
 
   <div class="post-content">
-    <p>Itcoin is literally <strong>Bitcoin without the B</strong>: a permissioned Distributed Ledger powered by the Bitcoin technology, in which the issuance of the token and the operation of the infrastructure is carried out by a distributed federation of nodes.
+    <p>Itcoin (as in: <strong>Bitcoin</strong> without the <strong>B</strong>) is a permissioned Distributed Ledger (DLT) powered by the Bitcoin technology. As opposed to Bitcoin, the issuance of the token and the operation of the infrastructure is carried out by a distributed federation of trusted nodes.
 Apart from these two substantial modifications, everything else is left unchanged in order to maintain compatibility with the Bitcoin protocol and to inherit and reuse all the existing ecosystem of applications that are built on top of its core infrastructure.</p>
 
 <ul>
-  <li>More information on the itcoin project is available on <a href="https://bankit.art/projects/itcoin-a-digital-currency-prototype">our website</a></li>
+  <li>More information on the <strong>itcoin</strong> project is available at <a href="https://bankit.art/projects/itcoin-a-digital-currency-prototype">our website</a>.</li>
 </ul>
 
-<p>Our itcoin blockchain uses a Proof-of-Authority consensus algorithm called <strong>FBFT (Frosted Byzantine Fault Tolerance)</strong>, which we designed using a combination of <a href="https://pmg.csail.mit.edu/papers/osdi99.pdf">PBFT</a> (Practical Byzantine Fault Tolerance) and <a href="https://eprint.iacr.org/2020/852.pdf">FROST</a> (Flexible Round-Optimized Schnorr Threshold signatures). Being based on PBFT, our consensus algorithm is resilient to a number of Byzantine failures of nodes in the federation. Thanks to FROST, our consensus algorithm protects the federation and the quorum confidentiality.</p>
+<p>The itcoin blockchain uses a Proof-of-Authority (PoA) consensus algorithm called <strong>FBFT (Frosted Byzantine Fault Tolerance)</strong>, which we designed using a combination of <a href="https://pmg.csail.mit.edu/papers/osdi99.pdf">PBFT</a> (Practical Byzantine Fault Tolerance) and <a href="https://eprint.iacr.org/2020/852.pdf">FROST</a> (Flexible Round-Optimized Schnorr Threshold signatures). Being based on PBFT, our consensus algorithm is resilient to a number of Byzantine failures of nodes in the federation. Thanks to FROST, our consensus algorithm protects the federation and the quorum confidentiality. Combining Bitcoin, FROST, and PBFT turned out to be a nontrivial exercise, one that led to the following publications:</p>
 
 <ul>
   <li>M. Benedetti, F. De Sclavis, M. Favorito, G. Galano, S. Giammusso, A. Muci, M. Nardelli, <em>A PoW-less Bitcoin with Certified Byzantine Consensus</em>, arXiv:2207.0687, 2022. (<a href="https://arxiv.org/abs/2207.06870">ArXiv</a>)</li>
@@ -58,16 +58,16 @@ Apart from these two substantial modifications, everything else is left unchange
   <li>M. Benedetti, F. De Sclavis, M. Favorito, G. Galano, S. Giammusso, A. Muci, M. Nardelli, <em>Certified Byzantine Consensus with Confidential Quorum for a Bitcoin-derived Permissioned DLT</em>, in: Proceedings of the 5th Distributed Ledger Technology Workshop, May 25–26, 2023. (to appear)</li>
 </ul>
 
-<p>True to the nature of Bitcoin, we want our software be <strong>as open as possible</strong>: The following prototype implementation are made available in open source:</p>
+<p>True to the nature of Bitcoin, we want our software be <strong>as open as possible</strong>; so, the following prototype implementations are made available as open source repositories:</p>
 
-<ul>
-  <li><a href="https://github.com/bancaditalia/itcoin-core">itcoin-core</a> contains the itcoin node implementation</li>
-  <li><a href="https://github.com/bancaditalia/libsecp256k1-frost">libsecp256k1-frost</a> contains an implementation of the FROST signature scheme for secp256k1</li>
-  <li>itcoin-fbft contains our FBFT consensus algorithm implementation (coming soon!)
+<ol>
+  <li><a href="https://github.com/bancaditalia/itcoin-core">itcoin-core</a>: contains the itcoin node implementation;</li>
+  <li><a href="https://github.com/bancaditalia/libsecp256k1-frost">libsecp256k1-frost</a>: contains an implementation of the FROST signature scheme over <em>secp256k1</em>;</li>
+  <li><strong>itcoin-fbft</strong>: contains our FBFT consensus algorithm implementation (coming soon!).
 <!-- [itcoin-fbft](https://github.com/bancaditalia/itcoin-fbft)  --></li>
-</ul>
+</ol>
 
-<p>Itcoin is a pure research project of the <a href="https://bankit.art/">Applied Research Team of Bank of Italy</a>. It aims at academic results (publications, open source software, prototypes); it has no bearing on the official Digital Euro initiative by the Eurosystem. All the software is currently intended for testing and experimentation purposes, and not for use in a production environment.</p>
+<p><strong>Note.</strong> Itcoin is a research project by the <a href="https://bankit.art/">Applied Research Team of Bank of Italy</a>. It aims at academic results (publications, open source software, prototypes); it has no bearing on the official Digital Euro initiative by the Eurosystem. All the software is currently intended for testing and experimentation purposes, and not for use in a production environment.</p>
 
   </div>
 
