@@ -1,0 +1,20 @@
+{
+  "name": "itcoin",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-static": "cd static && bundle exec jekyll build --baseurl /itcoin --destination ../docs/",
+    "build": "npm run build-static",
+    "watch-static": "cd static && bundle exec jekyll build --watch",
+    "start": "npm run watch-static"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
