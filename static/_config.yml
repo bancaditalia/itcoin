@@ -19,19 +19,27 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Project itcoin
-email: appliedresearchteam@bancaditalia.it
 description: >- # this means to ignore newlines until "baseurl:"
   A research initiative of the Applied Research Team of Bank of Italy, melting distributed ledger technologies and applied cryptography.
+author:
+  name: Applied Research Team @ Bank of Italy
+  email: "appliedresearchteam@bancaditalia.it"
+
 baseurl: "/itcoin" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  bancaditalia
 
 # Build settings
 theme: minima
+
+minima:
+  date_format: "%Y-%m-%d %H:%M"
+  social_links:
+    - { platform: github, user_url: "https://github.com/bancaditalia" }
+
 destination: ../docs-dev/itcoin
-plugins:
-  - jekyll-feed
+
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
