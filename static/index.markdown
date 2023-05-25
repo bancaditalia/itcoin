@@ -20,6 +20,6 @@ True to the nature of Bitcoin, we want our software be **as open as possible**; 
 
 1. [itcoin-core](https://github.com/bancaditalia/itcoin-core): contains the itcoin node implementation;
 2. [secp256k1-frost](https://github.com/bancaditalia/secp256k1-frost): contains an implementation of the FROST signature scheme over *secp256k1*;
-3. [itcoin-fbft](https://github.com/bancaditalia/itcoin-fbft): contains our FBFT consensus algorithm implementation (available by end of May 2023).
+3. [itcoin-fbft](https://github.com/bancaditalia/itcoin-fbft): contains our FBFT consensus algorithm implementation.
 
 **Note.** Itcoin is a research project by the [Applied Research Team of Bank of Italy](https://bankit.art/). It aims at academic results (publications, open source software, prototypes); it has no bearing on the official Digital Euro initiative by the Eurosystem. All the software is currently intended for testing and experimentation purposes, and not for use in a production environment.
