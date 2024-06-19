@@ -6,7 +6,7 @@ This repository is the source for https://bancaditalia.github.io/itcoin/
 
 ### Install the toolbox
 
-Install [nodejs](https://nodejs.org/en/download) and [jeckyll](https://jekyllrb.com/docs/installation/).
+Install [nodejs](https://nodejs.org/en/download) and [jekyll](https://jekyllrb.com/docs/installation/).
 
 ### Install project dependencies
 
